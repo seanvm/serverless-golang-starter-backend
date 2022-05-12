@@ -1,0 +1,16 @@
+{
+  "name": "serverless-golang-starter-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.25.1",
+    "serverless-export-env": "github:arabold/serverless-export-env",
+    "serverless-offline": "^12.0.0"
+  }
+}

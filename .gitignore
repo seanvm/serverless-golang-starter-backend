@@ -1,0 +1,29 @@
+# Serverless directories
+.serverless
+
+# golang output binary directory
+bin
+
+# golang vendor (dependencies) directory
+vendor
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore node_modules for serverless plugins
+node_modules
+
+.env
+
+# Ignore unencrypted secrets - serverless-secrets-plugin
+secrets.*.yml
